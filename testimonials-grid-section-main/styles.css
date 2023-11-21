@@ -39,8 +39,8 @@ p {
 .testimonial-3 {
 grid-column: 5;
 grid-row: 1 / span 2;
-background-color: hsl(0, 0%, 100%);
-color: hsl(217, 19%, 35%);
+background-color: #5A82BF;
+color: #0B132B;
 }
 
 .testimonial-4 {
