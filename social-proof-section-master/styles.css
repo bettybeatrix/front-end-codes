@@ -1,0 +1,115 @@
+body {
+	font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+	width: 1440px;
+	color: hsl(0, 0%, 100%);
+}
+
+.grid-container-1 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	max-width: 1440px;
+	min-width: 375px;
+	margin: margin: 40px 0px 15px 90px;
+	padding: 20px;
+}
+
+.promotion {
+	margin: 20px 0px 0px 90px;
+}
+
+h1 {
+	color: hsl(300, 43%, 22%);
+	width: 285px;
+	height: 110px;
+	font-size: 40px;
+}
+
+.intro {
+	color: hsl(303, 10%, 53%);
+	width: 400px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.rated-container {
+	margin-top: 50px;
+}
+
+.rate-1, .rate-2, .rate-3 {
+	background-color: hsl(300, 24%, 96%);
+	color: hsl(300, 43%, 22%);
+	font-weight: 700;
+	width: 400px;
+	height: 40px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.rate-2 {
+	margin-left: 50px;
+}
+
+.rate-3 {
+	margin-left: 90px;
+}
+
+img {
+	padding: 5px;
+}
+
+.star {
+	padding: 0px 15px;
+}
+
+.grid-container-2 img {
+	display: inline;
+	border-radius: 50px;
+	width: 50px;
+}
+
+.grid-container-2 {
+	display: flex;
+	justify-content: space-between;
+	width: 1220px;
+}
+.grid-item-1, .grid-item-2, .grid-item-3 {
+	background-color: hsl(300, 43%, 22%);
+	width: 345px;
+	height: 150px;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 10px 45px;
+}
+
+.grid-item-1 {
+	margin-left: 110px;
+}
+
+.grid-item-2 {
+	margin-top: 30px;
+}
+
+.grid-item-3 {
+	margin-top: 50px;
+}
+
+
+.grid-container-2 p {
+	color: #FFF2FF;
+}
+
+.verified {
+	color: hsl(333, 80%, 67%);
+}
+
+.image-name {
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
